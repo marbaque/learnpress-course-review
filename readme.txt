@@ -16,11 +16,11 @@ LearnPress Course Review - An extension plugin for LearnPress WordPress LMS Plug
 **Other free add-ons for LearnPress are available in WordPress:**  
 
 - <a href="https://wordpress.org/plugins/learnpress-wishlist/" target="_blank">LearnPress Wishlist</a> - add courses to a Wishlist for students.
-- <a href="https://wordpress.org/plugins/learnpress-course-review/" target="_blank">LearnPress Course Review</a> - review course for enrolled students.  
+- <a href="https://wordpress.org/plugins/learnpress-bbpress/" target="_blank">LearnPress bbPress Integration</a> - add bbPress Forum support to the LearnPress WordPress LMS Plugin.
 - <a href="https://wordpress.org/plugins/learnpress-import-export/" target="_blank">LearnPress Import Export</a> - export or import course or courses out-of-box.  
 - <a href="https://wordpress.org/plugins/learnpress-prerequisites-courses/" target="_blank">LearnPress Prerequisites Courses</a> - require student to pass some courses in order to enroll other course.  
-- <a href="https://wordpress.org/plugins/learnpress-bbpress" target="_blank">LearnPress bbPress</a> - add bbPress Forum support for LearnPress.  
-- <a href="https://wordpress.org/plugins/learnpress-buddypresss" target="_blank">LearnPress BuddyPress</a> - add BuddyPress support for LearnPress.  
+- <a href="https://wordpress.org/plugins/learnpress-bbpress" target="_blank">LearnPress bbPress</a> - add bbPress Forum support for the LearnPress WordPress LMS Plugin.
+- <a href="https://wordpress.org/plugins/learnpress-buddypresss" target="_blank">LearnPress BuddyPress Integration</a> - add BuddyPress support for the LearnPress WordPress LMS Plugin.
 
 **Premium Plugins (add-ons) for LearnPress WordPress LMS Plugin**
 
