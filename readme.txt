@@ -13,7 +13,7 @@ LearnPress Course Review - An extension plugin for LearnPress WordPress LMS Plug
 == Description ==  
 [LearnPress](https://wordpress.org/plugins/learnpress) Course Review is an add-on for the [LearnPress WordPress LMS Plugin](http://thimpress.com/learnpress) by [ThimPress](http://thimpress.com). It brings review feature to your course. Now, student can rate and give review for the course they take on a LearnPress site.
 
-**Free add-on for LearnPress WordPress LMS Plugin:**
+**Free add-ons for LearnPress WordPress LMS Plugin:**
 
 - <a href="https://wordpress.org/plugins/learnpress-wishlist" target="_blank">LearnPress Wishlist</a> - add courses to a Wishlist for students.
 - <a href="https://wordpress.org/plugins/learnpress-bbpress" target="_blank">LearnPress bbPress Integration</a> - add bbPress Forum support to the LearnPress WordPress LMS Plugin.
