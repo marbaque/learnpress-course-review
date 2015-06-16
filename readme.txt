@@ -19,10 +19,9 @@ LearnPress Course Review - An extension plugin for LearnPress WordPress LMS Plug
 - <a href="https://wordpress.org/plugins/learnpress-bbpress/" target="_blank">LearnPress bbPress Integration</a> - add bbPress Forum support to the LearnPress WordPress LMS Plugin.
 - <a href="https://wordpress.org/plugins/learnpress-import-export/" target="_blank">LearnPress Import Export</a> - export or import course or courses out-of-box.  
 - <a href="https://wordpress.org/plugins/learnpress-prerequisites-courses/" target="_blank">LearnPress Prerequisites Courses</a> - require student to pass some courses in order to enroll other course.  
-- <a href="https://wordpress.org/plugins/learnpress-bbpress" target="_blank">LearnPress bbPress</a> - add bbPress Forum support for the LearnPress WordPress LMS Plugin.
 - <a href="https://wordpress.org/plugins/learnpress-buddypresss" target="_blank">LearnPress BuddyPress Integration</a> - add BuddyPress support for the LearnPress WordPress LMS Plugin.
 
-**Premium Plugins (add-ons) for LearnPress WordPress LMS Plugin**
+**Premium Plugins (add-ons) for LearnPress WordPress LMS Plugin:**
 
 - <a href="http://thimpress.com/shop/certificates-add-on-for-learnpress/" target="_blank">Certificates add-on for LearnPress</a> - adding drag & drop certificates builder as well as selecting designed certificate for each LMS course, your student will get particular certificate when they finished a course.  
 - <a href="http://thimpress.com/shop/co-instructors-add-on-for-learnpress/" target="_blank">Co-instructors add-on for LearnPress</a> - multiple instructors support for each LMS course.  
