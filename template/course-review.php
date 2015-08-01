@@ -10,8 +10,8 @@ if( $course_review['total'] ) {
     $reviews = $course_review['reviews'];
     ?>
     <div id="course-reviews">
-        <h3 class="course-review-head"><?php _e( 'Reviews', 'learn_press' );?></h3>
-        <p class="course-average-rate"><?php printf( __( 'Average rate: <span>%.1f</span>', 'learn_press' ), $course_rate );?></p>
+        <h3 class="course-review-head"><?php _e( 'Reviews', 'learnpress_course_review' );?></h3>
+        <p class="course-average-rate"><?php printf( __( 'Average rate: <span>%.1f</span>', 'learnpress_course_review' ), $course_rate );?></p>
         <ul class="course-reviews-list">
             <?php foreach( $reviews as $review ) {?>
                 <?php
@@ -19,13 +19,13 @@ if( $course_review['total'] ) {
                 ?>
             <?php } ?>
             <?php if( empty( $course_review['finish'] ) ){?>
-            <li class="loading"><?php _e( 'Loading...', 'learn_press' );?></li>
-            <?php }else{?>
-            <li><?php _e( 'No review to load', 'learn_press' );?></li>
-            <?php }?>
+            <li class="loading"><?php _e( 'Loading...', 'learnpress_course_review' );?></li>
+            <?php }
+            //else?>
+            <!-- <li><?php _e( 'No review to load', 'learnpress_course_review' );?></li> -->            
         </ul>
         <?php if( empty( $course_review['finish'] ) ){?>
-        <button class="button" id="course-review-load-more" data-paged="<?php echo $course_review['paged'];?>"><?php _e( 'Load More', 'learn_press' );?></button>
+        <button class="button" id="course-review-load-more" data-paged="<?php echo $course_review['paged'];?>"><?php _e( 'Load More', 'learnpress_course_review' );?></button>
         <?php }?>
     </div>
     <?php

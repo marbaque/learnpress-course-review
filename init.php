@@ -122,14 +122,14 @@ function learn_press_get_user_rate( $course_id = null, $user_id = null ){
     if( ! $course_id || ! $user_id ) return false;
 
     $comment = false;
-    $args = array(
-        'user_id' => $user_id,
-        'post_id' => $course_id,
-        'include_unapproved' => true,
-        'type'  => 'review'
-    );
-    $comments = get_comments( $args );
-
+    global $wpdb;
+    $query = $wpdb->prepare("
+    	SELECT *
+    	FROM {$wpdb->posts} p
+    	INNER JOIN {$wpdb->comments} c ON c.comment_post_ID = p.ID
+    	WHERE c.comment_post_ID = %d AND user_id = %d
+    ", $course_id, $user_id);
+    $comments = $wpdb->get_results( $query );
     if( $comments ){
         $comment =  $comments[0];
         $comment->comment_title = get_comment_meta( $comment->comment_ID, '_lpr_review_title', true );
@@ -149,7 +149,7 @@ function learn_press_save_course_review( $course_id, $review_rate, $review_title
     $course_review = get_post_meta( $course_id, '_lpr_course_review', true );
     if( !isset($course_review) || !is_array($course_review) ) {
         $course_review = array();
-        $course_review['rate_value'] = [0, 0, 0, 0, 0, 0, 0];
+        $course_review['rate_value'] = array( 0, 0, 0, 0, 0, 0, 0 );
 
         $course_review['user'] = array();
         $course_review['rate'] = array();
